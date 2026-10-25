@@ -1,0 +1,6 @@
+{
+  "name": "e2e-board",
+  "version": "0.1.0",
+  "description": "Live board of an /implement-e2e run: orchestrator, running implementers, next, waiting, landed, parked",
+  "types": "./types/index.d.ts"
+}

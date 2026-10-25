@@ -1,0 +1,24 @@
+# Allowlist: everything is ignored unless listed below.
+/*
+!/.gitignore
+!/README.md
+!/settings.json
+!/statusline.js
+!/CLAUDE.md
+!/keybindings.json
+!/mcp-servers.sh
+!/skills/
+!/commands/
+!/agents/
+!/output-styles/
+!/plugins-local/
+!/cloud-setup.sh
+
+# Type files Claude Code writes into a local plugin each time it loads it.
+/plugins-local/*/.claude-plugin/types/
+
+# Skills synced from the claude.ai account, managed by Claude Code itself.
+/skills/synced/
+
+# Removed skills Claude Code keeps for recovery; machine-local.
+/skills/.trash/
