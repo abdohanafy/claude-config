@@ -24,7 +24,20 @@
     "playwright@claude-plugins-official": true,
     "mattpocock-skills@claude-plugins-official": true
   },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      }
+    }
+  },
   "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    }
+  },
   "voice": {
     "enabled": true,
     "mode": "hold"
@@ -33,18 +46,5 @@
   "autoContinueAtUsageLimit": true,
   "remoteControlAtStartup": true,
   "agentPushNotifEnabled": true,
-  "voiceEnabled": true,
-  "modelSettings": {
-    "claude-opus-5-5": {
-      "effortLevel": "high"
-    }
-  },
-  "extraKnownMarketplaces": {
-    "claude-plugins-official": {
-      "source": {
-        "source": "github",
-        "repo": "anthropics/claude-plugins-official"
-      }
-    }
-  }
+  "voiceEnabled": true
 }
